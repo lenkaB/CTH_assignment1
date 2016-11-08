@@ -9,5 +9,4 @@ Usage: node books.js [options]
     -p, --price [value]    Price of the book
     -k, --kind [value]     Paperback/Hardback
 
-  Make sure you use "" if you are looking for a title with more than one word, or an author
-  Watch out for capital leters!
+  Make sure you use "" if you are looking for a title with more than one word, or an author and watch out for capital leters!

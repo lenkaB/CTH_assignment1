@@ -9,4 +9,4 @@ Usage: node books.js [options]
     -t, --title [value]    Title of the book
     -a, --author [value]   Author of the book
     -p, --price [value]    Price of the book
-    -k, --kind [value]     TPaperback/Hardback
+    -k, --kind [value]     Paperback/Hardback

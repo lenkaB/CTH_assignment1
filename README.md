@@ -1,5 +1,3 @@
-# coding_the_humanities
-
 Usage: node books.js [options]
 
   Options:

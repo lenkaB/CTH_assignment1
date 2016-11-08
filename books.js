@@ -23,28 +23,39 @@ program
   .option('-k, --kind [value]', 'Search a book by kind')
   .parse(process.argv);
 
-  var i;
+  var i,ind=false;
   
 if(program.title){
     for(i=0;i<5;i++)
-        if(program.title==books[i].title)
+        if(program.title==books[i].title){
             console.log(books[i]);
+            ind=true;
+        }
 }
 
 if(program.author){
     for(i=0;i<5;i++)
-        if(program.author==books[i].author)
+        if(program.author==books[i].author){
             console.log(books[i]);
+            ind=true;
+        }
 }
 
 if(program.price){
     for(i=0;i<5;i++)
-        if(program.price==books[i].price)
+        if(program.price==books[i].price){
             console.log(books[i]);
+            ind=true;
+        }
 }
 
 if(program.kind){
     for(i=0;i<5;i++)
-        if(program.kind==books[i].kind)
+        if(program.kind==books[i].kind){
             console.log(books[i]);
+            ind=true;
+        }
 }
+
+if(ind==false)
+    console.log("Your search found no matches");
